@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background:#3498db;
+}
+.header-logo img{
+    width: 120px;
+    height: auto;
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+
+} 
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+} 
+.primary-menu ul li a{
+    color: #ffffff;
+    display: block;
+    line-height: 53px;
+    border-right: 1px solid #ddd;
+    font-size: 18px;
+    padding: 0 27px;
+
+    
+} 
+
+.primary-menu ul li a:hover{
+    background-color: #2980b9;
+    text-decoration: none;
+} 
+.banner{
+    background-image: url(../img/banner/banner.jpg);
+  
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.banner-text h1{
+    content: "";
+    background-color: rgba(52, 152, 219,.4);
+       width: 300px;
+       margin: auto;
+       margin-top: 30px;
+       padding:10px 0;
+       font-size: 34px;
+       border-radius: 5px;
+       position: relative;
+}
+.banner-text h2{
+    display: inline-block;
+    background-color:rgba(0,0,0,.4);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+.about{
+    text-align: center;
+    background-color: #ebf0f1;
+}
+.card span{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: #3498db;
+    border-radius: 20px 0 20px 0;
+    font-size: 35px;   
+    color: white;
+    line-height: 60px;
+}
+.prodcut img{
+    width: 100px;
+    height: auto;
+}
+
+.prodcut-item img{
+       width: 190px;
+       height: auto;
+}
+.prodcut-item p{
+       font-size: 18px;
+}
+.prodcut-item-right ul{
+    padding-left: 0%;
+    list-style: none;
+}
+.prodcut-item-right ul li {
+    padding: 10px;
+    margin-top: 5px;
+    background-color:#f7f7f7;
+    border-radius: 5px;
+   
+}
+.prodcut-item-right ul li a{
+    color:black;
+    padding: 10px;
+}
+.prodcut-item-right ul li a:hover{
+    text-decoration: none;
+    color:black;
+}
+.footer{
+    background-color: #4f4f4f;
+}
+.footer p{
+    margin-left: 0;
+}
+.footer a{
+    color:#fff;
+    margin-left: 15px;
+}
+.footer a:hover{
+    text-decoration: none;
+}
